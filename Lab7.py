@@ -3,8 +3,8 @@ import json
 import re
 from datetime import datetime
 
-WEATHER_API_KEY = "0ba249c93222903ed6d3d3295794f1e6"
-STEAM_API_KEY = "2EC969C262FF1E7ED774746B383AFCBC"
+WEATHER_API_KEY = ""
+STEAM_API_KEY = ""
 
 def get_weather(city):
     url = "https://api.openweathermap.org/data/2.5/weather"
@@ -88,4 +88,5 @@ def main():
         print("Не удалось получить новости.")
 
 if __name__ == "__main__":
+
     main()
